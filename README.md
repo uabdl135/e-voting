@@ -1,4 +1,4 @@
-TEAM - __main__
+TEAM - '__main__'
 
 This project is aimed at developing an e-voting system using blockchain. The idea is to use multiple blockchains, one for each district and verify them at a later date(verification day). An application will be launched for each district on the election day. Each individual's vote will comprise a block for that district's blockchain. Each block will contain the following data: 1) transaction ID - a string which will contain the hash of the Voter ID number to ensure that multiple votes are not cast by the same user 2) a date-time stamp. 3) data - the political party the user has voted for. 4)District ID - To store which blockchain should the current block be a part of. 5)polling booth number.
 
